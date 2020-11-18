@@ -1,0 +1,222 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    background-color: aquamarine;
+}
+
+.scoreContainer {
+    width: 100px;
+    width: 100px;
+    background-color: gold;
+    text-align: center;
+}
+
+.reset {
+    background-color: #FFFFFF; 
+    border: 2px solid #008CBA;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.reset:hover {
+    background-color: #008CBA;
+}
+
+#zero {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#one {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#two {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#three {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 4px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#four {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#five {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#six {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#seven {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#eight {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#nine {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#ten {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#eleven {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#twelve {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#thirteen {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#fourteen {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+}
+
+#fifteen {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 4px solid black;
+    text-align: center;
+    font-size: 45px;
+}

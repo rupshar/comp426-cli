@@ -1,0 +1,237 @@
+.container {
+    background-color: #1DA1F2;
+    margin: auto;
+    border: 6px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171A;
+}
+
+.container h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #657786;
+}
+
+.actions {
+    background-color: #AAB8C2;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+}
+
+.composeTweetArea {
+    background-color: #AAB8C2;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+}
+
+.newTweet {
+    border-radius: 4px;
+    border: 2px solid #1DA1F2;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 12px 24px;
+    margin: 5px;
+}
+
+.newTweet:hover {
+    background-color: #1DA1F2;
+    color: #14171A;
+}
+
+.refresh {
+    border-radius: 4px;
+    border: 2px solid #29DD49;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 12px 24px;
+    margin: 5px;
+}
+
+.refresh:hover {
+    background-color: #29DD49;
+    color: #F5F8FA;
+}
+
+.tweets {
+    background-color: #F5F8FA;
+    margin: auto;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    border-bottom: 6px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.tweets h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171A;
+}
+
+div[type=tweet] {
+    background-color:#FAFAFA;
+    border: thin solid black;
+    padding: 12px 24px;
+}
+
+.authorName {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171A;
+}
+
+.tweetBody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171A;
+    word-wrap: break-word;
+}
+
+.retweetBody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171A;
+    word-wrap: break-word;
+}
+
+.statistics {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #14171A;
+}
+
+button[type=likeButton] {
+    border-radius: 4px;
+    border: 2px solid #FF006C;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 6px 12px;
+    margin: 5px;
+}
+
+button[type=likeButton]:hover {
+    background-color: #FF006C;
+    color: #F5F8FA;
+}
+
+button[type=retweetButton] {
+    border-radius: 4px;
+    border: 2px solid #29DD49;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 6px 12px;
+    margin: 5px;
+}
+
+button[type=retweetButton]:hover {
+    background-color: #29DD49;
+    color: #F5F8FA;
+}
+
+button[type=deleteButton] {
+    border-radius: 4px;
+    border: 2px solid #FF0000;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 6px 12px;
+    margin: 5px;
+}
+
+button[type=deleteButton]:hover {
+    background-color: #FF0000;
+    color: #F5F8FA;
+}
+
+button[type=editButton] {
+    border-radius: 4px;
+    border: 2px solid #657786;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 6px 12px;
+    margin: 5px;
+}
+
+button[type=editButton]:hover {
+    background-color: #657786;
+    color: #F5F8FA;
+}
+
+button[type=replyButton] {
+    border-radius: 4px;
+    border: 2px solid #1DA1F2;
+    color: #657786;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 6px 12px;
+    margin: 5px;
+}
+
+button[type=replyButton]:hover {
+    background-color: #1DA1F2;
+    color: #F5F8FA;
+}
+
+button[type=cancel] {
+    border-radius: 4px;
+    border: 2px solid #FF0000;
+    color: #657786;
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 4px 8px;
+    margin: 5px;
+}
+
+button[type=cancel]:hover {
+    background-color: #FF0000;
+    color: #F5F8FA;
+}
+
+button[type=save] {
+    border-radius: 4px;
+    border: 2px solid #00FF00;
+    color: #657786;
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.7s;
+    padding: 4px 8px;
+    margin: 5px;
+}
+
+button[type=save]:hover {
+    background-color: #00FF00;
+    color: #000000;
+}

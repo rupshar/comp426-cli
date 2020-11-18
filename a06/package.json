@@ -1,0 +1,18 @@
+{
+  "name": "a06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "maze.js",
+  "type": "module",
+  "scripts": {
+    "callbacks": "node exercises/1_callbacks.js",
+    "promises": "node exercises/2_promises.js",
+    "async/await": "node exercises/3_async_await.js",
+    "async/await_challenge": "node exercises/4_challenge.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
