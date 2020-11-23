@@ -39,4 +39,4 @@ This is a short assignment, it uses Axios to handle HTTP requests and returning 
 
 # Assignment 9
 This is an extension of assignment 8, where I built a variant of twitter, in which tweets could be posted to a backend, and be liked, retweeted, or replied to. This 
-utilizes HTTP GET, PUT, POST, and DELETE functions. The backend requires a user be logged in, and will be nonfunctional in the near future.
+utilizes HTTP GET, PUT, POST, and DELETE methods. The backend requires a user be logged in, and will be nonfunctional in the near future.
