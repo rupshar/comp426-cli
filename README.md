@@ -3,7 +3,7 @@
 This is a collection of the ten assignments that I did for COMP 426, a class primarily rooted in frontend design.
 
 # Assignment 0
-Just a primer in HTML, testing how <strong> and <em> modify text.
+Just a primer in HTML, testing how `<strong>` and `<em>` modify text.
   
 # Assignment 1
 Increased focus in CSS, including handling pseudoclasses and utilizing the HTML hierarchy to make some effects. Overall, this is a really simple, raw HTML site, not 
